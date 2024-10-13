@@ -1,0 +1,29 @@
+.recommended-flex {
+    display: flex;
+    margin-left: 20rem;
+  }
+  
+  .recommended-title {
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+  }
+
+  .btns:active {
+    background-color: #e0e0e0; /* Change background color on click */
+    border-color: #888; /* Change border color on click */
+    color: #000; /* Change text color on click */
+    transform: scale(0.98); /* Slightly scale down the button on click */
+}
